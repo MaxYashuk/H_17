@@ -1,0 +1,332 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: violet;
+}
+.box{
+    background-color: rgb(255, 254, 254);
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    width: 300px;
+    height: 430px;
+    text-align: center;
+    margin-top: 25px;
+    -webkit-box-shadow: -11px 7px 16px 0px rgba(34, 60, 80, 0.16);
+    -moz-box-shadow: -11px 7px 16px 0px rgba(34, 60, 80, 0.16);
+    box-shadow: -11px 7px 16px 0px rgba(34, 60, 80, 0.16);
+}
+.header {
+    
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+
+}
+.picture{
+    padding-top: 20px;
+}
+.picture > img{
+    width: 100%;
+
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    width: 100%;
+    margin-top: 37px;
+}
+.price > p{
+    border: 1px solid black;
+    background-color: rgb(255, 222, 34);
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+.button{
+    max-width: 280px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(255, 222, 34);
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    
+}
+.button > a{
+    text-decoration: none;
+    color: black;
+}
+.button:hover{
+    background-color: coral;
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.icon .fa-heart{
+    color: tomato;
+    transition: all 2s;
+}
+
+
+
+
+
+.picture_2{
+    padding-top: 20px;
+}
+.picture_2 > img{
+    width: 100%;
+
+}
+.price_2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    width: 100%;
+}
+.price_2 > p{
+    border: 1px solid black;
+    background-color: rgb(255, 222, 34);
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.button_2{
+    max-width: 280px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(255, 222, 34);
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    
+}
+.button_2 > a{
+    text-decoration: none;
+    color: black;
+}
+.button_2:hover{
+    background-color: coral;
+    
+}
+.icon_2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.icon_2 .fa-heart{
+    color: tomato;
+    transition: all 2s;
+}
+
+
+
+
+
+
+
+
+
+.picture_3{
+    padding-top: 20px;
+}
+.picture_3 > img{
+    width: 100%;
+
+}
+.price_3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    width: 100%;
+    margin-top: 47px;
+}
+.price_3 > p{
+    border: 1px solid black;
+    background-color: rgb(255, 222, 34);
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.button_3{
+    max-width: 280px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(255, 222, 34);
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    
+}
+.button_3 > a{
+    text-decoration: none;
+    color: black;
+}
+.button_3:hover{
+    background-color: coral;
+    
+}
+.icon_3{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.icon_3 .fa-heart{
+    color: tomato;
+    transition: all 2s;
+}
+
+
+
+
+
+.picture_4{
+    padding-top: 20px;
+}
+.picture_4 > img{
+    width: 100%;
+
+}
+.price_4{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    width: 100%;
+    margin-top: 29px;
+}
+.price_4 > p{
+    border: 1px solid black;
+    background-color: rgb(255, 222, 34);
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.button_4{
+    max-width: 280px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(255, 222, 34);
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    
+}
+.button_4 > a{
+    text-decoration: none;
+    color: black;
+}
+.button_4:hover{
+    background-color: coral;
+    
+}
+.icon_4{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.icon_4 .fa-heart{
+    transition: all 2s;
+    color: tomato;
+}
+
+.icon_4 .fa-heart:hover{
+    font-size: 30px;
+}
+.icon_2 .fa-heart:hover{
+    font-size: 30px;
+}
+.icon_3 .fa-heart:hover{
+    font-size: 30px;
+}
+.icon .fa-heart:hover{
+    font-size: 30px;
+}
+.name{
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(168, 82, 168);
+    margin-left: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.name > a{
+    color: white;
+    text-decoration: none;
+}
+.name_2{
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(168, 82, 168);
+    margin-left: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.name_2 > a{
+    color: white;
+    text-decoration: none;
+}.name_3{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(168, 82, 168);
+    margin-left: 180px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.name_3 > a{
+    color: white;
+    text-decoration: none;
+}.name_4{
+    width: 90px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgb(168, 82, 168);
+    margin-left: 180px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.name_4 > a{
+    color: white;
+    text-decoration: none;
+}
+.text{
+    font-size: 20px;
+}
+.text_2{
+    font-size: 20px;
+}
+.text_3{
+    font-size: 20px;
+}
+.text_4{
+    font-size: 20px;
+}
